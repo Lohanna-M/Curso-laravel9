@@ -17,6 +17,7 @@ class ProductSeeder extends Seeder
     //Criar tabela com 10 produtos
     public function run()
     {
+        /* teste */
         Product::factory(10)->create();
     }
 }
